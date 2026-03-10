@@ -82,8 +82,7 @@ h3 {
 .logo {
     display: flex;
     align-items: center;
-    height: 60px;
-    /* Increased height since box is gone */
+    height: 90px;
     transition: var(--transition);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
@@ -99,7 +98,7 @@ h3 {
 }
 
 .navbar.scrolled .logo {
-    height: 50px;
+    height: 70px;
     padding: 0;
 }
 
