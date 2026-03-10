@@ -82,12 +82,10 @@ h3 {
 .logo {
     display: flex;
     align-items: center;
-    height: 50px;
-    background: #fff;
-    padding: 5px 12px;
-    border-radius: 8px;
+    height: 60px;
+    /* Increased height since box is gone */
     transition: var(--transition);
-    box-shadow: var(--shadow-sm);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .logo img {
@@ -97,13 +95,12 @@ h3 {
 }
 
 .logo:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-2px) scale(1.05);
 }
 
 .navbar.scrolled .logo {
-    height: 40px;
-    padding: 4px 10px;
+    height: 50px;
+    padding: 0;
 }
 
 .nav-links {
@@ -155,7 +152,7 @@ h3 {
 .hero {
     height: 100vh;
     min-height: 600px;
-    background: url('/assets/bali_hero.png') center/cover no-repeat;
+    background: url('/assets/bali_hero.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     position: relative;

@@ -8,7 +8,7 @@ const properties = [
         location: "SriKrisna I No.11, Canggu, Bali",
         category: "bali",
         price: "IDR 3.5M",
-        image: "/assets/bali_hero.png",
+        image: "/assets/bali_hero.jpg",
         beds: 3,
         baths: 3,
         size: "300 sqm",
