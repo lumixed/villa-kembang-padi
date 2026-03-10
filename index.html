@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villa Kembang Padi | Premium Villas & Houses in Indonesia</title>
+    <meta name="description"
+        content="Discover Villa Kembang Padi - premium villas in Bali and cozy retreats in Bandung. Your sanctuary in Indonesia's most beautiful destinations.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="/assets/logo.png" alt="Villa Kembang Padi Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#bali">Bali Villas</a></li>
+                <li><a href="#bandung">Bandung Houses</a></li>
+                <li><a href="#contact" class="btn-primary">Book Now</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">VILLA KEMBANG PADI</span>
+            <h1>Sanctuary in the Heart of <span>Indonesia</span></h1>
+            <p>From the lush tropical escapes of Bali to the elegant urban retreats of Bandung, discover the true
+                meaning of Indonesian hospitality with Kembang Padi.</p>
+            <div class="hero-cta">
+                <a href="#destinations" class="btn-primary">Explore Properties</a>
+                <a href="#contact" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curated Collections</h2>
+                <p>Hand-picked properties designed for comfort and luxury.</p>
+            </div>
+
+            <div class="location-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="bali">Bali</button>
+                <button class="filter-btn" data-filter="bandung">Bandung</button>
+            </div>
+
+            <div class="property-grid" id="property-grid">
+                <!-- Property cards will be injected by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="/assets/bali_pool.png" alt="Luxury Pool" class="reveal">
+                </div>
+                <div class="about-text">
+                    <span class="badge">OUR HERITAGE</span>
+                    <h2>Authentic Comfort, Family Heritage</h2>
+                    <p>Villa Kembang Padi is a collection of family-owned stays, rooted in the belief that luxury lies
+                        in comfort and authenticity. Our properties in Bali and Bandung are carefully maintained to
+                        ensure your stay is peaceful and memorable.</p>
+                    <ul class="features">
+                        <li>Premium Locations</li>
+                        <li>Local Expertise</li>
+                        <li>Exceptional Service</li>
+                        <li>Modern Amenities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h2>Start Your Journey</h2>
+                    <p>Have questions or ready to book? Reach out to us and we'll help you find the perfect stay.</p>
+                    <div class="contact-details">
+                        <div class="detail">
+                            <strong>WhatsApp</strong>
+                            <span>+62 812-3456-7890</span>
+                        </div>
+                        <div class="detail">
+                            <strong>Email</strong>
+                            <span>hello@lumistay.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="How can we help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Villa Kembang Padi. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
